@@ -1,5 +1,3 @@
-// @ts-check
-
 /**
  * @param { number } hours
  * @param { number }  minutes
