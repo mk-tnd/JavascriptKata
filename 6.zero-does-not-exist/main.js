@@ -1,3 +1,5 @@
+// @ts-check
+
 /**
  * @param { number } num
  * return { number | null }

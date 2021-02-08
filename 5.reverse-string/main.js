@@ -1,3 +1,5 @@
+// @ts-check
+
 /**
  * @param { string } str
  * @return { string }

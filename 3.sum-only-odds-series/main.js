@@ -1,4 +1,5 @@
 // ts-check
+
 /**
  * @param { number } n
  * @return number
