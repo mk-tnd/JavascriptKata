@@ -13,4 +13,7 @@ describe('Sum only odds from serial numbers', function() {
   it('should return 2500 when input 100 (1 + 2 + 3 + ... + 100)', function() {
     expect(sumOnlyOdds(100)).toBe(2500)
   })
+  it('should return 250000 when input 1000 (1 + 2 + 3 + ... + 1000)', function() {
+    expect(sumOnlyOdds(1000)).toBe(250000)
+  })
 })
