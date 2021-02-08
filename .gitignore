@@ -1,3 +1,14 @@
+# IntelliJ
+.idea/**
+
+# VSCode
+.vscode/*
+!.vscode/tasks.json
+!.vscode/launch.json
+*.code-workspace
+.history
+.ionide
+
 # Logs
 yarn.lock
 package-lock.json
