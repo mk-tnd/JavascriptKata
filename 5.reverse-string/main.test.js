@@ -1,5 +1,7 @@
 const reverseString = require('./main')
 
+const { describe, it, expect } = require('@jest/globals')
+
 describe('Reverse string', function() {
   it(`should return '8 pmaC edoC' when input 'Code Camp 8'`, function(){
     expect(reverseString('Code Camp 8')).toBe('8 pmaC edoC')

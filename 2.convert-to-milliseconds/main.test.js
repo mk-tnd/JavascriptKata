@@ -1,5 +1,7 @@
 const convertToMilliseconds = require('./main')
 
+const { describe, it, expect } = require('@jest/globals')
+
 describe('Convert to milliseconds', function() {
   it(`should return 61000 when input 0, 0 and 0`, function() {
     expect(convertToMilliseconds(0, 0, 0)).toBe(0)

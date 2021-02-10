@@ -1,5 +1,7 @@
 const zeroDoesNotExist = require('./main')
 
+const { describe, it, expect } = require('@jest/globals')
+
 describe(`Zero doesn't exist`, function() {
   it(`should return 192 when input 19200000`, function() {
     expect(zeroDoesNotExist(19200000)).toBe(192)

@@ -1,5 +1,7 @@
 const sumOnlyOdds = require('./main')
 
+const { describe, it, expect } = require('@jest/globals')
+
 describe('Sum only odds from serial numbers', function() {
   it('should return 25 when input 10 (2 + 4 + 6 + ... + 10 = 25)', function() {
     expect(sumOnlyOdds(10)).toBe(25)

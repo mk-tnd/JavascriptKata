@@ -1,5 +1,7 @@
 const findFirstNonConsecutive = require('./main')
 
+const { describe, it, expect } = require('@jest/globals')
+
 describe('Find first non consecutive number', function() {
   it(`should return 5 when input [1, 2, 3, 5, 6, 7, 8]`, function() {
     expect(findFirstNonConsecutive([1, 2, 3, 5, 6, 7, 8])).toBe(5)
