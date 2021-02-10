@@ -1,5 +1,7 @@
 const { plusArray1, plusArray2, plusArray3, plusArray4 } = require('./main')
 
+const { describe, it, expect } = require('@jest/globals')
+
 describe('Array plus array (For loop)', function() {
   it('When input [1, 2, 3] and [4, 8, 5] should return [6, 10, 7]', () => {
     expect(plusArray1([1, 2, 3], [4, 8, 5])).toEqual([6, 10, 7])

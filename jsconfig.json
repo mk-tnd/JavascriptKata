@@ -3,6 +3,7 @@
     "module": "commonJS",
     "target": "ES2016",
     "strict": true,
+    "declaration": true,
     "strictNullChecks": true,
     "strictFunctionTypes": true,
     "checkJs": true

@@ -1,7 +1,9 @@
 /**
  * @param { number } score
- * @returns { string }
+ * @returns { 'Unsatisfactory' | 'Satisfactory', 'Hournor' }
  */
-exports.calculateGrade = (score) => {
+function calculateGrade(score) {
 
 }
+
+module.exports = calculateGrade

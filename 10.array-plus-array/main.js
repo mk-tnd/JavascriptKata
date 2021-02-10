@@ -1,8 +1,3 @@
-/**
- * @param { Array<number> } arr1
- * @param { Array<number> } arr2
- * @return { Array<number> }
- */
 function plusArray1(arr1, arr2) {
   // Implement by FOR LOOP
 
