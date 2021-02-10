@@ -1,6 +1,5 @@
-const zeroDoesNotExist = require('./main')
-
 const { describe, it, expect } = require('@jest/globals')
+const zeroDoesNotExist = require('./main')
 
 describe(`Zero doesn't exist`, function() {
   it(`should return 192 when input 19200000`, function() {

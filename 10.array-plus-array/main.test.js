@@ -1,6 +1,5 @@
-const { plusArray1, plusArray2, plusArray3, plusArray4 } = require('./main')
-
 const { describe, it, expect } = require('@jest/globals')
+const { plusArray1, plusArray2, plusArray3, plusArray4 } = require('./main')
 
 describe('Array plus array (For loop)', function() {
   it('When input [1, 2, 3] and [4, 8, 5] should return [6, 10, 7]', () => {

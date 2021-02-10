@@ -1,6 +1,5 @@
-const isHigherThanAverage = require('./main')
-
 const { describe, it, expect } = require('@jest/globals')
+const isHigherThanAverage = require('./main')
 
 describe('You are higher than average', function() {
   it(`should return false when input [10, 10, 10, 10, 10] and 10`, function() {

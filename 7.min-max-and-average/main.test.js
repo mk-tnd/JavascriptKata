@@ -1,6 +1,5 @@
-const findMinMaxAndAvg = require('./main')
-
 const { describe, it, expect } = require('@jest/globals')
+const findMinMaxAndAvg = require('./main')
 
 describe('Find min, max and average', function() {
   it(`should return { max: 0, min: 10, avg: 10 } when input [0, 2, 4 ,6, 8, 10]`, function() {

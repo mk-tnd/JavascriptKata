@@ -1,6 +1,5 @@
-const findLongestWord = require('./main')
-
 const { describe, it, expect } = require('@jest/globals')
+const findLongestWord = require('./main')
 
 describe('Find min, max and average', function() {
   it(`should return 7 when input 'The quick white fox jumped around the massive dog'`, function() {

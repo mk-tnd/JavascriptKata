@@ -1,6 +1,5 @@
-const calculateGrade = require('./main')
-
 const { describe, it, expect } = require('@jest/globals')
+const calculateGrade = require('./main')
 
 describe('Calculate grade from score', function() {
   it(`should return 'Unsatisfactory' when input 40`, function() {
