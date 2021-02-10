@@ -1,6 +1,6 @@
 /**
  * @param { number } score
- * @returns { 'Unsatisfactory' | 'Satisfactory', 'Hournor' }
+ * @returns { 'Unsatisfactory' | 'Satisfactory' | 'Hournor' }
  */
 function calculateGrade(score) {
 
