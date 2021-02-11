@@ -20,4 +20,15 @@ function findItem_reduce(items, keyword) {
 
 }
 
-module.exports = { findItem_reduce, findItem_forEach }
+/**
+ * @template T
+ * @param { Array<T> } items
+ * @param { T } keyword
+ * @return boolean
+ */
+function findItem_filter(items, keyword) {
+  // Implement by Array.prototype.filter()
+
+}
+
+module.exports = { findItem_reduce, findItem_forEach, findItem_filter }

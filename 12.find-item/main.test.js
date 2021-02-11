@@ -1,5 +1,5 @@
 const { describe, it, expect } = require('@jest/globals')
-const { findItem_forEach, findItem_reduce } = require('./main')
+const { findItem_forEach, findItem_reduce, findItem_filter } = require('./main')
 
 function doTestCases(findItemCallback) {
   it(`should return true when input [1, 2, 3, 4, 6, 7, 8, 9, 10] and 4`, function() {
@@ -43,10 +43,15 @@ function doTestCases(findItemCallback) {
     ).toBe(false)
   })
 }
+
 describe('Find the word - ForEach', function() {
   doTestCases(findItem_forEach)
 })
 
 describe('Find the word - Reduce', function() {
   doTestCases(findItem_reduce)
+})
+
+describe('Find the word - Filter', function() {
+  doTestCases(findItem_filter)
 })
