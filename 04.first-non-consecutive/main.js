@@ -9,8 +9,10 @@ function findFirstNonConsecutive(nums) {
         return nums[i + 1]
       }
     }
+  } 
   }
   return null
+
 }
 
 module.exports = findFirstNonConsecutive
