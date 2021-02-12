@@ -44,18 +44,18 @@ function doTestCases(findItemCallback) {
   })
 }
 
-describe('Find the word - [ForEach]', function() {
+describe('Have item - [ForEach]', function() {
   doTestCases(findItem_forEach)
 })
 
-describe('Find the word - [Reduce]', function() {
+describe('Have item - [Reduce]', function() {
   doTestCases(findItem_reduce)
 })
 
-describe('Find the word - [Filter]', function() {
+describe('Have item - [Filter]', function() {
   doTestCases(findItem_filter)
 })
 
-describe('Find the word - [Some]', function() {
+describe('Have item - [Some]', function() {
   doTestCases(findItem_some)
 })
